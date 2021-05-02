@@ -1,0 +1,50 @@
+
+[data-theme="dark"] {
+  --background-color: #333e47;
+  --switch-color: white;
+  --img: url(../cedorax_logo.png)
+}
+
+[data-theme="light"] {
+  --background-color: white;
+  --switch-color: #333e47;
+  --img: url(../cedorax_logo.png)
+}
+
+.top {
+background-color: var(--background-color);
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 9;
+border-bottom: 1px solid #e0e0e0;
+}
+
+.nav_top {
+ align-content: center;
+ align-items: center;
+ background: var(--img) no-repeat center left;
+ background-size: 250px;
+ display: flex;
+ white-space: nowrap;
+ width: 1200px;
+ height: 160px;
+ margin: 0 auto;
+
+}
+
+.block {
+  width: 100%;
+  height: 200px;
+}
+
+.mode_switch {
+  position: absolute;
+  right: 20px;
+  top:20px;
+  
+}
+
+.mode_switch * span{
+  color: var(--switch-color);
+}
