@@ -68,16 +68,19 @@ font-family: 'Lato', sans-serif;
   overflow-y:auto;
   color: var(--text-color);
   font-family: 'Lato', sans-serif;
- 
+  font-weight: 300;
 }
 
 .history span {
 font-size: 30px;
+font-family: 'Lato', sans-serif;
 }
 
 table{
   padding-top: 20px;
   width: 100%;
+  font-family: 'Lato', sans-serif;
+ 
 }
 
 
