@@ -81,7 +81,7 @@ function Form() {
 
     //check if the submitted input is a number
     if( !Number.isNaN(parsedInput)){
-      const numbersInWords = converter.toWords(parsedInput);
+      const numbersInWords = converter.toWords(parsedInput).replaceAll(', ', " and ");
       setResult(numbersInWords)
       setHistory(prev => [  {
         number: input , 
